@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+<!-- 工具栏 -->
+<section class="tool">
+	<div class="top">
+		<div class="new">
+			<input class="iconfont" type="button" value="&#xe619;" title="新建画布">
+			<div class="mes new-mes">
+				<div>
+					<span>宽:</span>
+					<input type="text" value="0">
+				</div>
+				<div>
+					<span>高:</span>
+					<input type="text" value="0">
+				</div>
+			</div>
+		</div>
+		<div>
+			<input class="iconfont undo" type="button" value="&#xe632;" title="撤销">
+		</div>
+		<div class="upload">
+			<input class="iconfont" type="button" value="&#xe890;" title="下载">
+		</div>
+		<div></div>
+	</div>
+	<div class="middle">
+		<div>
+			<input class="line iconfont" type="button" value="&#xe601;" title="线条">
+			<div class="mes style-mes">
+				<div>
+					------------------------
+				</div>
+				<div>
+					------------------
+				</div>
+				<div>
+					------------------
+				</div>
+			</div>
+		</div>
+		<div class="">
+			<input class="rect iconfont" type="button" value="&#xe633;" title="矩形功能">
+		</div>
+		<div class="">
+			<input class="triangle iconfont" type="button" value="&#xe6b4;" title="直角三角形">
+		</div>
+		<div class="">
+			<input class="arc iconfont" type="button" value="&#xe664;" title="圆形功能">
+		</div>
+		<div class="">
+			<input class="pencil iconfont" type="button" value="&#xe62d;" title="铅笔功能">
+		</div>
+		<div class="">
+			<input class="iconfont" type="button" value="&#xe623;" title="多角星">
+		</div>
+		<div class="">
+			<input class="duobian iconfont" type="button" value="&#xe607;" title="多边形">
+			<div class="mes duobian-mes">
+				<span>边数:</span>
+				<input type="text" value="6">
+			</div>
+		</div>
+		<div class="tm">
+			<input class=" tianchong iconfont" type="button" value="&#xe63c;" title="选择是填充还是描边">
+			<input class=" miaobian iconfont" type="button" value="&#xe680;" title="选择是填充还是描边">
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="se" title="填充颜色">
+			<span class="iconfont">&#xe65d;</span>
+			<input class="fill iconfont" type="color" value="" title="改变填充颜色">
+		</div>
+		<div class="se" title="描边颜色">
+			<span class="iconfont">&#xe65d;</span>
+			<input class="stroke iconfont" type="color" value="" title="改变描边颜色">
+		</div>
+	</div>
+</section>
+
+
+<div class="box">
+	<!-- <canvas id="can" width=700 height=500></canvas> -->
+</div>
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/platten.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
